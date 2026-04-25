@@ -5,32 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>My research focuses on geospatial machine learning architectures and their application to hydrogeological and environmental challenges.</p>
 
-{% include base_path %}
+<h2>Journal Articles & Preprints</h2>
+<ul>
+  <li>
+    <strong>Valdebenito M.</strong> & Saldías G. "Monthly groundwater level prediction under sparse piezometric monitoring in the Maule Region, central Chile, using hydrogeologically-informed machine learning." <em>Journal of Hydrology: Regional Studies</em>. [Manuscript in preparation].
+  </li>
+  <li>
+    Aedo R., Jiménez J., Quiero F., Salgueiro Y., <strong>Valdebenito M.</strong>, Rey C. & Saldías G. (2025). "Towards surface-based hydraulic conductivity mapping using seismoelectric signals and data-driven models." <em>Preprint, SSRN 6126566</em>.
+  </li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
+<h2>Conference Papers</h2>
+<ul>
+  <li>
+    <strong>Valdebenito M.</strong> (2025). "Intelligent groundwater exploration system integrating SEMq data through AI models." <em>1st Chilean Hydrogeological Congress, IAH</em>. Termas El Corazón, Chile.
+  </li>
+  <li>
+    <strong>Valdebenito M.</strong>, Aedo R., Espinosa O., González O. & Saldías G. (2025). "Gamification effects for learning electromagnetism in laboratory settings." <em>XXXVII Chilean Engineering Education Congress, UBB</em>.
+  </li>
+  <li>
+    <strong>Valdebenito M.</strong>, Aedo R. & Valenzuela-Núñez C. (2025). "Active learning in aerospace and space sciences with accessible hardware and operative simulation." <em>XXXVII Chilean Engineering Education Congress, UBB</em>.
+  </li>
+</ul>
 
