@@ -9,56 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+You can also download my complete Curriculum Vitae as a PDF: [Download CV](../files/Miguel_Valdebenito_CV.pdf).
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Professional & Research Experience
+* **Geospatial AI Systems Architect** | *G-STRATA SpA* (May 2022 – Present)
+  * Lead design and integration of AI-driven geospatial systems for groundwater intelligence (SEMq-1 sensor, G-WaterLink platform).
+  * Build scalable ML pipelines combining satellite remote sensing, GIS, seismoelectric geophysics, and in-situ sensors.
+* **Founder & Technical Lead** | *IDESAT* (Jun 2024 – Present)
+  * Lead R&D of deep-tech aerospace systems: educational satellite platforms, robotics, and additive manufacturing.
+* **Research Engineer — Satellite Technologies** | *Universidad de Antofagasta* (Oct 2025 – Feb 2026)
+  * Aerospace design, payload integration, testing, and monitoring for regional satellite tech transfer initiative.
+* **Research Development Coordinator** | *Universidad de Concepción* (Jun 2024 – Feb 2025)
+* **Co-Founder & Systems Architect** | *Aslight Engineering SpA* (Oct 2019 – Jun 2024)
+  * Co-founded deep-tech startup developing Smart Drone Chute aerospace recovery systems. Securing public funding and participating in Silicon Valley & Boston programs.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Technical Skills
+* **ML & AI:** Python, PyTorch, TensorFlow, Scikit-learn, XGBoost, SHAP, Spatiotemporal forecasting.
+* **Geospatial & RS:** Google Earth Engine, QGIS, ArcGIS, GeoPandas, Rasterio, NASA Earthdata API.
+* **Scientific Computing:** NumPy, Pandas, Matplotlib, Jupyter, LaTeX, Git/GitHub.
+* **Hydrogeological & Geophysical:** Groundwater flow modeling, Seismoelectric signal processing.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Selected Awards & Leadership
+* **Lead Educator, CURSAT Program:** U.S. Embassy Chile (2024–2026) - Nationwide satellite science workshops.
+* **ScaleUp Labs 2026:** Selected cohort member (Top 10, Europe & LatAm) for scaling geospatial ML.
+* **Brain Chile:** National Deep-Tech Innovation Program (2024).
+* **DO-SAFIO Datatón FACH:** Finalist (2024).
+* **1st Place, Herothon:** Draper University, Silicon Valley (2022).
+* **NASA SpaceApps Challenge:** Prize Winner (2020).
