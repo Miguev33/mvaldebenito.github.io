@@ -10,9 +10,9 @@ title                   : "Miguel Valdebenito"
 title_separator         : "-"
 name                    : &name "Miguel Valdebenito"
 description             : &description "PhD Candidate in Data Engineering & Geospatial AI. I develop geospatial machine learning systems for hydrogeological and environmental modeling."
-url: "https://Miguev33.github.io"
+url                     :  "https://Miguev33.github.io"
 baseurl                 : "" 
-repository: "Miguev33/Miguev33.github.io"
+repository              : "Miguev33/Miguev33.github.io"
 
 # Site Author
 author:
@@ -24,7 +24,7 @@ author:
   location         : "Chile"
   employer         : "Universidad del Bío-Bío"
   uri              : 
-  email            : "migvaldebenitoch@gmail.com"
+  email            : "miguel.valdebenito2501@alumnos.ubiobio.cl"
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=HXsB_tcAAAAJ"
